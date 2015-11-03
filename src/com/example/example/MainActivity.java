@@ -11,7 +11,6 @@ public class MainActivity extends Activity {
 	public String s;
 	public double d;
 	
-	public long l;
 	public long t;
 	
 	@Override
