@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
 	public double d;
 	
 	public long l;
+	public long t;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
