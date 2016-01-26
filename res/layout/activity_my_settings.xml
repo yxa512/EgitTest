@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+    	<ImageView
+    	    android:id="@+id/iv_head" 
+    	    android:layout_width="@dimen/interval3"
+    		android:layout_height="@dimen/interval3"
+    		android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:layout_toRightOf="@id/iv_head" 
+            android:layout_marginLeft="@dimen/interval5"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical">
+    		<TextView 
+    		    android:id="@+id/tv_nickname"
+    		    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="121312"
+    			android:textSize="@dimen/textSize1"/>
+            <TextView 
+    		    android:id="@+id/tv_region"
+    		    android:layout_marginTop="@dimen/interval5"
+    		    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="121312"
+    			android:textSize="@dimen/textSize1"/>
+        </LinearLayout>
+    </RelativeLayout>
+     
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <TextView 
+	    android:id="@+id/tv_key_manage"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/key_manage"
+		android:textSize="@dimen/textSize1"
+		android:padding="@dimen/interval5"/>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <TextView 
+	    android:id="@+id/tv_open_record"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/open_record"
+		android:textSize="@dimen/textSize1"
+		android:padding="@dimen/interval5"/>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <TextView 
+	    android:id="@+id/tv_key_call_set"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/call_set"
+		android:textSize="@dimen/textSize1"
+		android:padding="@dimen/interval5"/>
+    
+     <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <TextView 
+	    android:id="@+id/tv_key_settings"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/settings"
+		android:textSize="@dimen/textSize1"
+		android:padding="@dimen/interval5"/>
+    
+     <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+</LinearLayout>

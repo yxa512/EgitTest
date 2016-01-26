@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+    	<ImageView
+    	    android:id="@+id/iv_head" 
+    	    android:layout_width="@dimen/interval3"
+    		android:layout_height="@dimen/interval3"
+    		android:layout_alignParentRight="true"
+    		android:src="@drawable/ic_launcher"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_phone_number" 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+   		<TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/phone_number"
+   			android:textSize="@dimen/textSize1"/>
+       <TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_alignParentRight="true"
+   			android:text="121312"
+   			android:textSize="@dimen/textSize1"/>
+    </RelativeLayout>
+     
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_nickname" 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+   		<TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/nickname"
+   			android:textSize="@dimen/textSize1"/>
+       <TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_alignParentRight="true"
+   			android:text="121312"
+   			android:textSize="@dimen/textSize1"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_sex"  
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+   		<TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/sex"
+   			android:textSize="@dimen/textSize1"/>
+       <TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_alignParentRight="true"
+   			android:text="121312"
+   			android:textSize="@dimen/textSize1"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_birthday"  
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+   		<TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/birthday"
+   			android:textSize="@dimen/textSize1"/>
+       <TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_alignParentRight="true"
+   			android:text="121312"
+   			android:textSize="@dimen/textSize1"/>
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@android:color/black"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_region"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/interval5">
+   		<TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/region"
+   			android:textSize="@dimen/textSize1"/>
+       <TextView 
+   		    android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_alignParentRight="true"
+   			android:text="121312"
+   			android:textSize="@dimen/textSize1"/>
+    </RelativeLayout>
+    
+</LinearLayout>
